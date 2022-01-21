@@ -1,0 +1,376 @@
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Proje.dll.config
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Proje.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Proje.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\csc.exe
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\csc.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\csc.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\csi.exe
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\csi.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\csi.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.AppContext.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Console.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Net.Http.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\vbc.exe
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\vbc.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\vbc.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Antlr3.Runtime.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\EntityFramework.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\EntityFramework.SqlServer.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Newtonsoft.Json.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Helpers.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Mvc.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Optimization.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Razor.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.WebPages.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\WebGrease.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\EntityFramework.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\EntityFramework.SqlServer.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Helpers.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Mvc.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Optimization.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.Razor.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.WebPages.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Newtonsoft.Json.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Antlr3.Runtime.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\obj\Debug\Proje.csprojAssemblyReference.cache
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\obj\Debug\Proje.csproj.CopyComplete
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\obj\Debug\Proje.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\obj\Debug\Proje.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\PagedList.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\PagedList.Mvc.dll
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\PagedList.xml
+C:\Users\Mustafa\Desktop\aspdersleri\Proje\Proje\bin\PagedList.Mvc.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Proje.dll.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Proje.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Proje.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\csc.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\csc.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\csc.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\csi.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\csi.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\csi.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.AppContext.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Console.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Net.Http.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\vbc.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\vbc.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\vbc.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Antlr3.Runtime.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\EntityFramework.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\EntityFramework.SqlServer.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Newtonsoft.Json.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\PagedList.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\PagedList.Mvc.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Helpers.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Mvc.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Optimization.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Razor.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.WebPages.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\WebGrease.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\EntityFramework.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\EntityFramework.SqlServer.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\PagedList.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\PagedList.Mvc.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Helpers.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Mvc.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Optimization.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.Razor.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.WebPages.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Newtonsoft.Json.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Antlr3.Runtime.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\obj\Debug\Proje.csprojAssemblyReference.cache
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\obj\Debug\Proje.csproj.CopyComplete
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\obj\Debug\Proje.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\Proje\Proje\obj\Debug\Proje.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Proje.dll.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Proje.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Proje.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\csc.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\csc.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\csc.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\csi.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\csi.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\csi.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.AppContext.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Console.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Net.Http.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\vbc.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\vbc.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\vbc.rsp
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Antlr3.Runtime.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\EntityFramework.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\EntityFramework.SqlServer.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Newtonsoft.Json.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\PagedList.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\PagedList.Mvc.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Helpers.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Mvc.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Optimization.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Razor.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.WebPages.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\WebGrease.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\EntityFramework.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\EntityFramework.SqlServer.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\PagedList.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\PagedList.Mvc.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Helpers.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Mvc.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Optimization.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.Razor.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.WebPages.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Newtonsoft.Json.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Antlr3.Runtime.pdb
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\obj\Debug\Proje.csprojAssemblyReference.cache
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\obj\Debug\Proje.csproj.CopyComplete
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\obj\Debug\Proje.dll
+C:\Users\Mustafa\Desktop\aspdersleri\mvc\16_OnlineTheaterManagementSystem_1700003891_1800000104\Proje\obj\Debug\Proje.pdb
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Proje.dll.config
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Proje.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Proje.pdb
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\csc.exe
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\csc.exe.config
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\csc.rsp
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\csi.exe
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\csi.exe.config
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\csi.rsp
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.AppContext.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Console.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Net.Http.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\vbc.exe
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\vbc.exe.config
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\vbc.rsp
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Antlr3.Runtime.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\EntityFramework.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\EntityFramework.SqlServer.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Newtonsoft.Json.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\PagedList.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\PagedList.Mvc.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Helpers.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Mvc.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Optimization.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Razor.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.WebPages.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\WebGrease.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\EntityFramework.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\EntityFramework.SqlServer.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\PagedList.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\PagedList.Mvc.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Helpers.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Mvc.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Optimization.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.Razor.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.WebPages.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Newtonsoft.Json.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Antlr3.Runtime.pdb
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\obj\Debug\Proje.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\obj\Debug\Proje.csproj.CopyComplete
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\obj\Debug\Proje.dll
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\obj\Debug\Proje.pdb
+C:\Users\Mustafa\Desktop\Projelerim\Tiyatro Yönetim Sistemi\Proje\obj\Debug\Proje.csproj.AssemblyReference.cache

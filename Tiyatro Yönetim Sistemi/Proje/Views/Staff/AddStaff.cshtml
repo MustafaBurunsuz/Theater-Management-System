@@ -1,0 +1,30 @@
+﻿@model Proje.Models.Entity.TBstaff_member
+@{
+    ViewBag.Title = "AddStaff";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Add Staff</h2>
+
+<form class="form-group" method="post">
+    <div>
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label> Staff Name</label>
+       
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Name, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label> Staff Phone</label>
+       
+        @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Phone, "", new { Style = "color:forestgreen" })
+    </div>
+   
+    <div style="margin-top:15px"> <button class="btn btn-info" id="Btn1">Add Staff</button></div>
+</form>

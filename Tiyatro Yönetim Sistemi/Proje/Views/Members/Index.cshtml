@@ -1,0 +1,57 @@
+﻿@using Proje.Models.Entity
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<TBMembers>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Members</h2>
+
+
+<table  class="table table-bordered">
+
+    <div>
+        <tr style="background-color:rgb(252, 178, 22)">
+            <th>Member ID</th>
+            <th>Member Name</th>
+            <th>Member Surname</th>
+            <th>Mail</th>
+            <th>User Name</th>
+            <th>Password</th>
+            <th>Phone</th>
+
+            <th>Delete</th>
+            <th>Update</th>
+            <th>Show History</th>
+        </tr>
+    </div>
+    @foreach (var prs in Model)
+    {
+
+
+
+
+
+        <tr>
+            <td>@prs.ID</td>
+            <td>@prs.Name</td>
+            <td>@prs.Surname</td>
+            <td>@prs.Mail</td>
+            <td>@prs.Username</td>
+            <td>@prs.Password</td>
+            <td>@prs.PhoneNumber</td>
+
+            <td><a href="/Members/DeleteMember/@prs.ID" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Members/GetMember/@prs.ID" class="btn btn-success">Update</a></td>
+            <td><a href="/Members/MemberHistory/@prs.ID" class="btn btn-success" style="background-color:lightseagreen">Show History</a></td>
+        </tr>
+    }
+
+</table>
+@Html.PagedListPager((IPagedList)Model, sayfa => Url.Action("Index", new { sayfa }))
+
+
+<a href="/Members/AddMember/" class="btn btn-primary">Add New Member</a>
+

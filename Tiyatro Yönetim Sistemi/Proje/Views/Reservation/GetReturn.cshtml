@@ -1,0 +1,39 @@
+﻿@model Proje.Models.Entity.TBActivity
+@{
+    ViewBag.Title = "GetReturn";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("UpdateReservation", "Reservation", FormMethod.Post))
+{
+    <div style="margin-bottom:15px"></div>
+
+    <div class="form-group">
+
+        <label>Activity ID</label>
+        @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+        <br />
+        <label>Show Name</label>
+        @Html.TextBoxFor(k => k.TBShow.Name, new { @class = "form-control" })
+        <br />
+        <label>Member</label>
+        @Html.TextBoxFor(k => k.TBMembers.Name, new { @class = "form-control" })
+        <br />
+        <label>Staff</label>
+        @Html.TextBoxFor(k => k.TBstaff_member.Name, new { @class = "form-control" })
+        <br />
+        <label>Buying Date</label>
+        @Html.TextBoxFor(k => k.buying_date, "{0:dd. MM. yyyy}", new { @class = "form-control" })
+        <br />
+        <label>  Return Date</label>
+        @Html.TextBoxFor(k => k.returning_date, "{0:dd. MM. yyyy}", new { @class = "form-control" })
+        <br />
+
+    </div> <div style="margin-top:15px">
+        <button class="btn btn-group" style="background-color:#38136d; color:white" ;>Get Back</button>
+
+    </div>
+
+
+}

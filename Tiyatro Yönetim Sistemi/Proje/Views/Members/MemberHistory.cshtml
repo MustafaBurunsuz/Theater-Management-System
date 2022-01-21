@@ -1,0 +1,39 @@
+﻿@using Proje.Models.Entity
+@model List<TBActivity>
+@{
+    ViewBag.Title = "MemberHistory";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>..</h2>
+<br />
+<table class="table table danger">
+    <tr>
+        <th>Show Name</th>
+        <th>Staff</th>
+        <th>Date</th>
+        <th>Return Date</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+
+        <tr>
+            <td>@x.TBShow.Name</td>
+            <td>@x.TBstaff_member.Name</td>
+            <td>@Convert.ToDateTime(x.buying_date).ToString("dd/MM/yyyy")</td>
+            <td>@Convert.ToDateTime(x.returning_date).ToString("dd/MM/yyyy")</td>
+
+
+
+        </tr>
+
+
+    }
+
+
+
+
+
+</table>
+

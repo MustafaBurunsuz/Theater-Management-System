@@ -1,0 +1,47 @@
+﻿@model Proje.Models.Entity.TBShow
+@{
+    ViewBag.Title = "GetShow";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("ShowUpdate", "Show", FormMethod.Post))
+{
+
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+
+
+        <div style="margin-bottom:15px">
+            <label>Show ID</label>
+            @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>SHOW NAME</label>
+            @Html.TextBoxFor(k => k.Name, new { @class = "form-control" })
+        </div>
+        
+        <div style="margin-bottom:15px">
+            <label>Writer</label>
+            @Html.DropDownListFor(k => k.TBWriter.ID, (List<SelectListItem>)ViewBag.dgr2, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Publishing Year</label>
+            @Html.TextBoxFor(k => k.PublishingYear, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Yayın Evi</label>
+            @Html.TextBoxFor(k => k.Time, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>State</label>
+            @Html.TextBoxFor(k => k.State, new { @class = "form-control" })
+        </div>
+
+        <button class="btn btn-warning">Update Show info</button>
+        <input type="hidden" name="State" value="True" />
+    </div>
+
+
+
+}
+

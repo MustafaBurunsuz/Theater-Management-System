@@ -1,0 +1,49 @@
+﻿@using Proje.Models.Entity
+@model List<TBShow>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<h2>Show Page</h2>
+@using (Html.BeginForm("Index", "Show", FormMethod.Get))
+{
+
+    <div style="margin-bottom:15px; margin-top:15px;">
+        <b>Enter Show Name: </b>@Html.TextBox("p")
+        <input type="submit" value="Ara" />
+    </div>
+}
+<table class="table table-bordered">
+    <tr style="background-color:rgb(252, 178, 22)">
+        <td>ID</th>
+        <th>Show Name</th>
+        <th>Writer</th>
+        <th>Publising Year</th>
+        <th>Time</th>
+        <th>State</th>
+        
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+
+    @foreach (var k in Model)
+    {
+        <tr>
+            <td>@k.ID</td>
+            <td>@k.Name</td>
+            <td>@k.TBWriter.Name&nbsp @k.TBWriter.Surname</td>
+            <td>@k.PublishingYear</td>
+            <td>@k.Time</td>
+            <td>@k.State</td>
+           
+            <td><a href="/Show/DeleteShow/@k.ID" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Show/GetShow/@k.ID" class="btn btn-success">Update</a></td>
+
+
+        </tr>
+
+
+
+    }
+</table>
+<a href="/Show/AddShow" class="btn btn-primary">ADD SHOW</a>

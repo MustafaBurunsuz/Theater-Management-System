@@ -1,0 +1,24 @@
+﻿@using Proje.Models.Entity
+@model List<TBActivity>
+@{
+    ViewBag.Title = "MyShows";
+    Layout = "~/Views/Shared/Panel.cshtml";
+}
+<br />
+<h2>Show İnfo</h2>
+<br />
+<table class="table table-bordered" >
+    <tr style="background-color:darkcyan">
+        <th>Show Name</th>
+        <th>Reservation Date</th>
+        <th>Cancel Date</th>
+    </tr>
+    @foreach (var k in Model)
+    {
+        <tr>
+            <td>@k.TBShow.Name</td>
+            <td>@Convert.ToDateTime(k.buying_date).ToString("dd/MM/yyyy")</td>
+            <td>@Convert.ToDateTime(k.returning_date).ToString("dd/MM/yyyy")</td>
+        </tr>
+    }
+</table>

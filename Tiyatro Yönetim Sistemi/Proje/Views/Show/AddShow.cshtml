@@ -1,0 +1,53 @@
+﻿@model Proje.Models.Entity.TBShow
+@{
+    ViewBag.Title = "AddShow";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div>
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label>Show Name</label>
+        @Html.TextBoxFor(k => k.Name, new { @class = "form-control" })
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label>Writer</label>
+        @Html.DropDownListFor(k => k.TBWriter.ID, (List<SelectListItem>)ViewBag.dgr2, new { @class = "form-control" })
+
+    </div>
+    <div style="margin-top:15px">
+
+        <label>Publishing Year</label>
+        @Html.TextBoxFor(k => k.PublishingYear, new { @class = "form-control" })
+
+    </div>
+
+
+    <div style="margin-top:15px">
+
+        <label>Time</label>
+        @Html.TextBoxFor(k => k.Time, new { @class = "form-control" })
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label>Image</label>
+        @Html.TextBoxFor(k => k.Image, new { @class = "form-control" })
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <button class="btn btn-info">ADD Show</button>
+
+    </div>
+
+</form>

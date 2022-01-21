@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="THEATERModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BAdmin">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Auser" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TBAbout_us">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="statement1" Type="varchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TBActivity">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Show" Type="int" Nullable="false" />
+          <Property Name="Member" Type="int" Nullable="false" />
+          <Property Name="staff_member" Type="int" Nullable="false" />
+          <Property Name="buying_date" Type="smalldatetime" />
+          <Property Name="returning_date" Type="smalldatetime" />
+          <Property Name="operation_state" Type="bit" />
+        </EntityType>
+        <EntityType Name="TBAnnouncement">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Header" Type="varchar" MaxLength="250" />
+          <Property Name="Contant" Type="varchar" MaxLength="1000" Nullable="false" />
+          <Property Name="DateOfAnnouncement" Type="smalldatetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TBContact">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Mail" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Message" Type="varchar" MaxLength="1000" />
+        </EntityType>
+        <EntityType Name="TBMembers">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" />
+          <Property Name="Mail" Type="varchar" MaxLength="50" />
+          <Property Name="Username" Type="varchar" MaxLength="20" />
+          <Property Name="Password" Type="varchar" MaxLength="20" />
+          <Property Name="Photo" Type="varchar" MaxLength="250" />
+          <Property Name="PhoneNumber" Type="char" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="TBMessage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Sender" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Receiver" Type="varchar" MaxLength="250" Nullable="false" />
+          <Property Name="Subject" Type="varchar" MaxLength="2550" Nullable="false" />
+          <Property Name="Contant" Type="varchar" MaxLength="1000" Nullable="false" />
+          <Property Name="Date" Type="smalldatetime" />
+        </EntityType>
+        <EntityType Name="TBShow">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Writer" Type="int" />
+          <Property Name="PublishingYear" Type="char" MaxLength="4" />
+          <Property Name="Time" Type="int" />
+          <Property Name="State" Type="bit" />
+          <Property Name="Image" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TBstaff_member">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Phone" Type="int" />
+          <Property Name="Age" Type="int" />
+        </EntityType>
+        <EntityType Name="TBWriter">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Detail" Type="varchar" MaxLength="1000" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_TBActivity_TBMembers">
+          <End Role="TBMembers" Type="Self.TBMembers" Multiplicity="1" />
+          <End Role="TBActivity" Type="Self.TBActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBMembers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBActivity">
+              <PropertyRef Name="Member" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBActivity_TBShow">
+          <End Role="TBShow" Type="Self.TBShow" Multiplicity="1" />
+          <End Role="TBActivity" Type="Self.TBActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBShow">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBActivity">
+              <PropertyRef Name="Show" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBActivity_TBstaff_member">
+          <End Role="TBstaff_member" Type="Self.TBstaff_member" Multiplicity="1" />
+          <End Role="TBActivity" Type="Self.TBActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBstaff_member">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBActivity">
+              <PropertyRef Name="staff_member" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBShow_TBWriter">
+          <End Role="TBWriter" Type="Self.TBWriter" Multiplicity="0..1" />
+          <End Role="TBShow" Type="Self.TBShow" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBWriter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBShow">
+              <PropertyRef Name="Writer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="THEATERModelStoreContainer">
+          <EntitySet Name="BAdmin" EntityType="Self.BAdmin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBAbout_us" EntityType="Self.TBAbout_us" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBActivity" EntityType="Self.TBActivity" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBAnnouncement" EntityType="Self.TBAnnouncement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBContact" EntityType="Self.TBContact" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBMembers" EntityType="Self.TBMembers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBMessage" EntityType="Self.TBMessage" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBShow" EntityType="Self.TBShow" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBstaff_member" EntityType="Self.TBstaff_member" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBWriter" EntityType="Self.TBWriter" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TBActivity_TBMembers" Association="Self.FK_TBActivity_TBMembers">
+            <End Role="TBMembers" EntitySet="TBMembers" />
+            <End Role="TBActivity" EntitySet="TBActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBActivity_TBShow" Association="Self.FK_TBActivity_TBShow">
+            <End Role="TBShow" EntitySet="TBShow" />
+            <End Role="TBActivity" EntitySet="TBActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBActivity_TBstaff_member" Association="Self.FK_TBActivity_TBstaff_member">
+            <End Role="TBstaff_member" EntitySet="TBstaff_member" />
+            <End Role="TBActivity" EntitySet="TBActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBShow_TBWriter" Association="Self.FK_TBShow_TBWriter">
+            <End Role="TBWriter" EntitySet="TBWriter" />
+            <End Role="TBShow" EntitySet="TBShow" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="THEATERModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BAdmin">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Auser" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TBAbout_us">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="statement1" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TBActivity">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Show" Type="Int32" Nullable="false" />
+          <Property Name="Member" Type="Int32" Nullable="false" />
+          <Property Name="staff_member" Type="Int32" Nullable="false" />
+          <Property Name="buying_date" Type="DateTime" Precision="0" />
+          <Property Name="returning_date" Type="DateTime" Precision="0" />
+          <Property Name="operation_state" Type="Boolean" />
+          <NavigationProperty Name="TBMembers" Relationship="Self.FK_TBActivity_TBMembers" FromRole="TBActivity" ToRole="TBMembers" />
+          <NavigationProperty Name="TBShow" Relationship="Self.FK_TBActivity_TBShow" FromRole="TBActivity" ToRole="TBShow" />
+          <NavigationProperty Name="TBstaff_member" Relationship="Self.FK_TBActivity_TBstaff_member" FromRole="TBActivity" ToRole="TBstaff_member" />
+        </EntityType>
+        <EntityType Name="TBAnnouncement">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Header" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="Contant" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateOfAnnouncement" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="TBContact">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Mail" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Message" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TBMembers">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Photo" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="TBActivity" Relationship="Self.FK_TBActivity_TBMembers" FromRole="TBMembers" ToRole="TBActivity" />
+        </EntityType>
+        <EntityType Name="TBMessage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Sender" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Receiver" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Subject" Type="String" MaxLength="2550" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Contant" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="TBShow">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Writer" Type="Int32" />
+          <Property Name="PublishingYear" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Time" Type="Int32" />
+          <Property Name="State" Type="Boolean" />
+          <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="TBActivity" Relationship="Self.FK_TBActivity_TBShow" FromRole="TBShow" ToRole="TBActivity" />
+          <NavigationProperty Name="TBWriter" Relationship="Self.FK_TBShow_TBWriter" FromRole="TBShow" ToRole="TBWriter" />
+        </EntityType>
+        <EntityType Name="TBstaff_member">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Phone" Type="Int32" />
+          <Property Name="Age" Type="Int32" />
+          <NavigationProperty Name="TBActivity" Relationship="Self.FK_TBActivity_TBstaff_member" FromRole="TBstaff_member" ToRole="TBActivity" />
+        </EntityType>
+        <EntityType Name="TBWriter">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Detail" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="TBShow" Relationship="Self.FK_TBShow_TBWriter" FromRole="TBWriter" ToRole="TBShow" />
+        </EntityType>
+        <Association Name="FK_TBActivity_TBMembers">
+          <End Role="TBMembers" Type="Self.TBMembers" Multiplicity="1" />
+          <End Role="TBActivity" Type="Self.TBActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBMembers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBActivity">
+              <PropertyRef Name="Member" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBActivity_TBShow">
+          <End Role="TBShow" Type="Self.TBShow" Multiplicity="1" />
+          <End Role="TBActivity" Type="Self.TBActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBShow">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBActivity">
+              <PropertyRef Name="Show" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBActivity_TBstaff_member">
+          <End Role="TBstaff_member" Type="Self.TBstaff_member" Multiplicity="1" />
+          <End Role="TBActivity" Type="Self.TBActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBstaff_member">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBActivity">
+              <PropertyRef Name="staff_member" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TBShow_TBWriter">
+          <End Role="TBWriter" Type="Self.TBWriter" Multiplicity="0..1" />
+          <End Role="TBShow" Type="Self.TBShow" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TBWriter">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TBShow">
+              <PropertyRef Name="Writer" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="THEATEREntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BAdmin" EntityType="Self.BAdmin" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="TBAbout_us" EntityType="Self.TBAbout_us" />
+          <EntitySet Name="TBActivity" EntityType="Self.TBActivity" />
+          <EntitySet Name="TBAnnouncement" EntityType="Self.TBAnnouncement" />
+          <EntitySet Name="TBContact" EntityType="Self.TBContact" />
+          <EntitySet Name="TBMembers" EntityType="Self.TBMembers" />
+          <EntitySet Name="TBMessage" EntityType="Self.TBMessage" />
+          <EntitySet Name="TBShow" EntityType="Self.TBShow" />
+          <EntitySet Name="TBstaff_member" EntityType="Self.TBstaff_member" />
+          <EntitySet Name="TBWriter" EntityType="Self.TBWriter" />
+          <AssociationSet Name="FK_TBActivity_TBMembers" Association="Self.FK_TBActivity_TBMembers">
+            <End Role="TBMembers" EntitySet="TBMembers" />
+            <End Role="TBActivity" EntitySet="TBActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBActivity_TBShow" Association="Self.FK_TBActivity_TBShow">
+            <End Role="TBShow" EntitySet="TBShow" />
+            <End Role="TBActivity" EntitySet="TBActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBActivity_TBstaff_member" Association="Self.FK_TBActivity_TBstaff_member">
+            <End Role="TBstaff_member" EntitySet="TBstaff_member" />
+            <End Role="TBActivity" EntitySet="TBActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TBShow_TBWriter" Association="Self.FK_TBShow_TBWriter">
+            <End Role="TBWriter" EntitySet="TBWriter" />
+            <End Role="TBShow" EntitySet="TBShow" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="THEATERModelStoreContainer" CdmEntityContainer="THEATEREntities">
+          <EntitySetMapping Name="BAdmin">
+            <EntityTypeMapping TypeName="THEATERModel.BAdmin">
+              <MappingFragment StoreEntitySet="BAdmin">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Auser" ColumnName="Auser" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="THEATERModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBAbout_us">
+            <EntityTypeMapping TypeName="THEATERModel.TBAbout_us">
+              <MappingFragment StoreEntitySet="TBAbout_us">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="statement1" ColumnName="statement1" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBActivity">
+            <EntityTypeMapping TypeName="THEATERModel.TBActivity">
+              <MappingFragment StoreEntitySet="TBActivity">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Show" ColumnName="Show" />
+                <ScalarProperty Name="Member" ColumnName="Member" />
+                <ScalarProperty Name="staff_member" ColumnName="staff_member" />
+                <ScalarProperty Name="buying_date" ColumnName="buying_date" />
+                <ScalarProperty Name="returning_date" ColumnName="returning_date" />
+                <ScalarProperty Name="operation_state" ColumnName="operation_state" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBAnnouncement">
+            <EntityTypeMapping TypeName="THEATERModel.TBAnnouncement">
+              <MappingFragment StoreEntitySet="TBAnnouncement">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Header" ColumnName="Header" />
+                <ScalarProperty Name="Contant" ColumnName="Contant" />
+                <ScalarProperty Name="DateOfAnnouncement" ColumnName="DateOfAnnouncement" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBContact">
+            <EntityTypeMapping TypeName="THEATERModel.TBContact">
+              <MappingFragment StoreEntitySet="TBContact">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBMembers">
+            <EntityTypeMapping TypeName="THEATERModel.TBMembers">
+              <MappingFragment StoreEntitySet="TBMembers">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Photo" ColumnName="Photo" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBMessage">
+            <EntityTypeMapping TypeName="THEATERModel.TBMessage">
+              <MappingFragment StoreEntitySet="TBMessage">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Sender" ColumnName="Sender" />
+                <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Contant" ColumnName="Contant" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBShow">
+            <EntityTypeMapping TypeName="THEATERModel.TBShow">
+              <MappingFragment StoreEntitySet="TBShow">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Writer" ColumnName="Writer" />
+                <ScalarProperty Name="PublishingYear" ColumnName="PublishingYear" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBstaff_member">
+            <EntityTypeMapping TypeName="THEATERModel.TBstaff_member">
+              <MappingFragment StoreEntitySet="TBstaff_member">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBWriter">
+            <EntityTypeMapping TypeName="THEATERModel.TBWriter">
+              <MappingFragment StoreEntitySet="TBWriter">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Detail" ColumnName="Detail" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

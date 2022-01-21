@@ -1,0 +1,50 @@
+﻿@model Proje.Models.Entity.TBActivity
+@{
+    ViewBag.Title = "GetReservation";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+<form class="form-group" method="post">
+    <div>
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label>Member ID</label>
+        @Html.TextBoxFor(k => k.Member, new { @class = "form-control" })
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label> Show ID</label>
+
+        @Html.TextBoxFor(k => k.Show, new { @class = "form-control" })
+
+    </div>
+    <div style="margin-top:15px">
+
+        <label>Staff ID</label>
+
+        @Html.TextBoxFor(k => k.staff_member, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label> Buying Date</label>
+
+        <input type="text" class="form-control" name="buying_date" value="@DateTime.Now.ToShortDateString()" />
+
+    </div>
+  
+    <div style="margin-top:15px">
+        <button class="btn btn-group" style="background-color:#38136d; color:white" ;>Get Reservation</button>
+        <input type="hidden" value="False" name="operation_state" />
+
+
+    </div>
+
+
+
+</form>

@@ -1,0 +1,32 @@
+﻿@using Proje.Models.Entity;
+@model List<TBAnnouncement>
+@{
+    ViewBag.Title = "Announcement";
+    Layout = "~/Views/Shared/Panel.cshtml";
+}
+
+<h2>Announcement</h2>
+
+<table class="table table-bordered" >
+    <tr style="background-color:darkcyan">
+        <th>Title</th>
+        <th>Date</th>
+        <th>Contant</th>
+    </tr>
+
+    @foreach (var prs in Model)
+    {
+        <tr>
+            <td>@prs.Header</td>
+            <td>@Convert.ToDateTime(prs.DateOfAnnouncement).ToString("dd/MM/yyyy")</td>
+            <td>@prs.Contant</td>
+
+
+
+
+        </tr>
+
+
+
+    }
+</table>

@@ -1,0 +1,39 @@
+﻿@using Proje.Models.Entity
+@model List<TBstaff_member>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Staff</h2>
+
+<table class="table table-bordered">
+
+    <tr style="background-color:rgb(252, 178, 22)">
+        <th>Staff ID</th>
+        <th>Staff Name</th>
+        <th>Staff Phone</th>
+      
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    @foreach (var prs in Model)
+    {
+
+
+
+
+
+        <tr>
+            <td>@prs.ID</td>
+            <td>@prs.Name</td>
+            <td>@prs.Phone</td>
+          
+            <td><a href="/Staff/DeleteStaff/@prs.ID" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Staff/GetStaff/@prs.ID" class="btn btn-success">Update</a></td>
+        </tr>
+    }
+
+</table>
+
+<a href="/Staff/AddStaff/" class="btn btn-primary">Add New Staff</a>

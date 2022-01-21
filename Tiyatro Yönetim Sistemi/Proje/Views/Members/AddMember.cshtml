@@ -1,0 +1,65 @@
+﻿@model Proje.Models.Entity.TBMembers
+@{
+    ViewBag.Title = "AddMember";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>ADD MEMBER</h2>
+
+<form class="form-group" method="post">
+    <div>
+
+    </div>
+
+    <div style="margin-top:15px">
+
+        <label>Member Name</label>
+     
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Name, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label> Member Surname</label>
+     
+        @Html.TextBoxFor(x => x.Surname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Surname, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label>MAİL</label>
+   
+        @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Mail, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label>User Name </label>
+     
+        @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Username, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label>Password</label>
+     
+        @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Password, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label>Photo Link</label>
+   
+        @Html.TextBoxFor(x => x.Photo, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Photo, "", new { Style = "color:forestgreen" })
+    </div>
+    <div style="margin-top:15px">
+
+        <label>Phone</label>
+   
+        @Html.TextBoxFor(x => x.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.PhoneNumber, "", new { Style = "color:forestgreen" })
+    </div>
+   
+    <div style="margin-top:15px"> <button class="btn btn-info" id="Btn1">ADD MEMBER</button></div>
+</form>

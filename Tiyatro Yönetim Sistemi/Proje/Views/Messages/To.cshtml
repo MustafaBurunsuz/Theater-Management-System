@@ -1,0 +1,28 @@
+﻿@using Proje.Models.Entity
+@model List<TBMessage>
+@{
+    /**/
+    ViewBag.Title = "To";
+    Layout = "~/Views/Shared/Panel.cshtml";
+}
+
+<h2>OutGoing Messages</h2>
+<br />
+<table class="table table-bordered" >
+    <tr style="background-color:darkcyan">
+        <th>To</th>
+        <th>Title</th>
+        <th>Messages</th>
+        <th>Date</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Receiver</td>
+            <td>@x.Contant</td>
+            <td>@x.Subject</td>
+            <td>@x.Date</td>
+        </tr>
+    }
+</table>
+

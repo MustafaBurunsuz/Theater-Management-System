@@ -1,0 +1,34 @@
+﻿@using Proje.Models.Entity
+@model List<TBMessage>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Panel.cshtml";
+}
+
+<h2>Messages</h2>
+
+<table class="table table-bordered">
+    <tr style="background-color:darkcyan">
+        <th>Sender</th>
+        <th>Contant</th>
+        <th>Message</th>
+        <th>Date</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Sender</td>
+            <td>@x.Contant</td>
+            <td>@x.Subject</td>
+            <td>@x.Date</td>
+        </tr>
+
+
+    }
+
+
+
+
+</table>

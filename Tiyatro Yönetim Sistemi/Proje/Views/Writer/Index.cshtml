@@ -1,0 +1,41 @@
+﻿@using Proje.Models.Entity
+@model List<TBWriter>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Writers</h2>
+
+<table class="table table-striped">
+
+
+    <tr  style="background-color:rgb(252, 178, 22)">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Detail</th>
+        <th>Delete</th>
+        <th>Update </th>
+        <th>Writers show</th>
+    </tr>
+    @foreach (var y in Model)
+    {
+        <tr>
+            <td>@y.ID</td>
+            <td>@y.Name</td>
+            <td>@y.Surname</td>
+            <td>@y.Detail</td>
+            <td>
+                @Html.ActionLink("Delete", "DeleteWriter", new { id = y.ID }, new
+        { @class = "btn btn-danger", onclick = "return confirm('Do you want to delete?')" })
+            </td>
+            <td><a href="/Writer/GetWriter/@y.ID" class="btn btn-warning">Update</a></td>
+            <td><a href="/Writer/WriterShows/@y.ID" class="btn btn-default" style="background-color:#808080; color:white">Writers Shows</a></td>
+
+        </tr>
+    }
+
+</table>
+
+<a href="/Writer/AddWriter/" class="btn btn-primary">Add New Writer</a>

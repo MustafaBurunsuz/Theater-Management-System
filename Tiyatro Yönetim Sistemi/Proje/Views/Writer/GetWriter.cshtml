@@ -1,0 +1,36 @@
+﻿@model Proje.Models.Entity.TBWriter
+@{
+    ViewBag.Title = "GetWriter";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+@using (Html.BeginForm("UpdateWriter", "Writer", FormMethod.Post))
+{
+
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+
+
+        <div style="margin-bottom:15px">
+            <label>Writer ID</label>
+            @Html.TextBoxFor(y => y.ID, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Writer Name</label>
+            @Html.TextBoxFor(y => y.Name, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Writer Surname</label>
+            @Html.TextBoxFor(y => y.Surname, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Writer </label>
+            @Html.TextAreaFor(y => y.Detail, new { @class = "form-control" })
+        </div>
+        <button class="btn btn-warning">Update Writer İnfo</button>
+    </div>
+
+
+
+}
+

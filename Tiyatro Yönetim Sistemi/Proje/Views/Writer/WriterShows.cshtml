@@ -1,0 +1,33 @@
+﻿@using Proje.Models.Entity;
+@model List<TBShow>
+@{
+    ViewBag.Title = "WriterShows";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+<h2>...</h2>
+<br />
+
+<table class="table table-striped">
+    <tr>
+
+        <th>ID</th>
+        <th>Show Name</th>
+        <th>Pubishing Year</th>
+       
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+
+            <td>@x.ID</td>
+            <td>@x.Name</td>
+            <td>@x.PublishingYear</td>
+        
+        </tr>
+
+    }
+
+</table>

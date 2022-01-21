@@ -1,0 +1,43 @@
+﻿@using Proje.Models.Entity
+@model List<TBActivity>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2> Reservation List</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Activity ID</th>
+        <th>Show Name</th>
+        <th>Member</th>
+        <th>Staff</th>
+        <th>Reservation Date</th>
+       
+
+        <th>Get Return</th>
+
+    </tr>
+
+    @foreach (var k in Model)
+    {
+<tr>
+    <td>@k.ID</td>
+    <td>@k.TBShow.Name</td>
+    <td>@k.TBMembers.Name&nbsp @k.TBMembers.Surname</td>
+    <td>@k.TBstaff_member.Name</td>
+    <td>@Convert.ToDateTime(k.buying_date).ToString("dd/MM/yyyy")</td>
+    
+
+
+    <td><a href="/Reservation/GetReturn/@k.ID" class="btn btn-default" style="background-color:#0094ff; color:white">Get Back</a></td>
+    <input type="hidden" value="True" name="operation_state" />
+
+
+</tr>
+
+
+
+    }
+</table>
